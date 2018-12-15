@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tab Switch Hotkey",
+  "description": "Switch tabs via hotkey",
+  "version": "1.0.0",
+
+  "background": {
+    "scripts": ["tabswitch.js"],
+    "persistent": false
+  },
+
+  "commands": {
+    "switchTabLeft": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Left"
+      },
+      "description": "Switch Tab Left"
+    },
+    "switchTabRight": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Right"
+      },
+      "description": "Switch Tab Right"
+    }
+  }
+}
